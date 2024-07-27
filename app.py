@@ -1,4 +1,5 @@
 import chainlit as cl
+from src.llm import ask_bot
 
 
 @cl.on_message
